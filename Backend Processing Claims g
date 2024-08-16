@@ -1,0 +1,20 @@
+CREATE DATABASE Hospital;
+CREATE TABLE Hospital;
+CREATE TABLE Hospital (HospitalID int, FullName int, FieldSpecialty int, FullAdress int);
+SELECT HospitalID, FullName, FieldSpecialty, Fulladdress ;
+FROM Hospital
+WHERE United States of America;
+CREATE TABLE HealthcareEmployee;
+CREATE TABLE HealthcareEmployee (EmployeeID int, FullName int, FieldSpecialty int, PhoneNumber int);
+SELECT EmployeeID, FullName, FieldSpecialty, PhoneNumber;
+FROM HealthcareEmployee;
+WHERE United States of America;
+CREATE TABLE Patients;
+CREATE TABLE Patients (PatientID int, FullName int, FullAddress int, PhoneNUmber int);
+SELECT PateintID, FullName, FullAddress, PhoneNumber;
+FROM Patients;
+WHERE United States of America;
+CREATE TABLE HospitalClaims;
+CREATE TABLE HospitalClaims (PatientID int, FullName int, FullAddress int, PhoneNumber int, ClaimValue int);
+SELECT PatientID, FullName, FullAddress, PhoneNumber, ClaimValue;
+FROM HospitalClaims
